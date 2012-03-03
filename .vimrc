@@ -34,12 +34,6 @@ nnoremap <Leader>p :NERDTreeToggle<cr>
 " Show the terminal title
 set title
 
-" Minibuffer Explorer Settings
-let g:miniBufExplMapWindowNavVim = 1
-let g:miniBufExplMapWindowNavArrows = 1
-let g:miniBufExplMapCTabSwitchBufs = 1
-let g:miniBufExplModSelTarget = 1
- 
 " alt+n or alt+p to navigate between entries in QuickFix
 map <silent> <m-p> :cp <cr>
 map <silent> <m-n> :cn <cr>
