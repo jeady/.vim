@@ -31,7 +31,19 @@ set showcmd
 " Show NERDTree using ,p
 nnoremap <Leader>p :NERDTreeToggle<cr>
 
-" Show the terminal title
+" Correct movement for dvorak
+vnoremap e j
+vnoremap j e
+vnoremap u k
+vnoremap k u
+vnoremap t l
+nnoremap e j
+nnoremap j e
+nnoremap u k
+nnoremap k u
+nnoremap t l
+
+" show the terminal title
 set title
 
 " alt+n or alt+p to navigate between entries in QuickFix
@@ -48,7 +60,6 @@ set directory=~/.vim/tmp " directory to place swap files in
 set history=256  " Number of things to remember in history.
 set autowrite  " Writes on make/shell commands
 set ruler  " Ruler on
-set nu  " Line numbers on
 set nowrap  " Line wrapping off
 set timeoutlen=250  " Time to wait after ESC (default causes an annoying delay)
 " colorscheme vividchalk  " Uncomment this to set a default theme
@@ -65,6 +76,11 @@ set cindent
 set autoindent
 set smarttab
 set expandtab
+
+" Line Numbers
+set rnu
+autocmd InsertEnter * :set number
+autocmd InsertLeave * :set relativenumber
 
 " Visual
 set showmatch  " Show matching brackets.
