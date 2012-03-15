@@ -12,6 +12,7 @@ call pathogen#runtime_append_all_bundles()
 let mapleader = ","
 let g:mapleader = ","
 nnoremap ; :
+inoremap <C-space> <Esc>
 
 " When scrolling the viewport, scroll 3 lines at a time
 nnoremap <C-e> 3<C-e>
