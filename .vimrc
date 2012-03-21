@@ -32,18 +32,6 @@ set showcmd
 " Show NERDTree using ,p
 nnoremap <Leader>p :NERDTreeToggle<cr>
 
-" Correct movement for dvorak
-vnoremap e j
-vnoremap j e
-vnoremap u k
-vnoremap k u
-vnoremap t l
-nnoremap e j
-nnoremap j e
-nnoremap u k
-nnoremap k u
-nnoremap t l
-
 " show the terminal title
 set title
 
