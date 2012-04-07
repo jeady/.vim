@@ -67,17 +67,14 @@ set smarttab
 set expandtab
 
 " Line Numbers
-set rnu
-autocmd InsertEnter * :set number
-autocmd InsertLeave * :set relativenumber
+set nu
 
 " Visual
 set showmatch  " Show matching brackets.
 set mat=5  " Bracket blinking.
-set list
 
 " Show $ at end of line and trailing space as ~
-set lcs=tab:\ \ ,eol:$,trail:~,extends:>,precedes:<
+set lcs=tab:\›\ ,eol:$,trail:~,extends:>,precedes:<
 set novisualbell  " No blinking .
 set noerrorbells  " No noise.
 set laststatus=2  " Always show status line.
@@ -89,10 +86,12 @@ map <C-h> <C-W>h
 map <C-l> <C-W>l
 
 " Tab configuration
-map <leader>tn :tabnew<cr>
+map <leader>nt :tabnew<cr>
 map <leader>te :tabedit
 map <leader>tc :tabclose<cr>
 map <leader>tm :tabmove
+map <leader>tn :tabnext<cr>
+map <leader>tp :tabprev<cr>
 
 " Enable OmniCompletion
 autocmd FileType python set omnifunc=pythoncomplete#Complete
