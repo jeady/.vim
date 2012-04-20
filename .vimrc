@@ -74,7 +74,8 @@ set showmatch  " Show matching brackets.
 set mat=5  " Bracket blinking.
 
 " Show $ at end of line and trailing space as ~
-set lcs=tab:\›\ ,eol:$,trail:~,extends:>,precedes:<
+set list lcs=tab:\›\ ,eol:┐,trail:~,extends:>,precedes:<
+" set list lcs=tab:\›\ ,eol:$,trail:~,extends:>,precedes:<
 set novisualbell  " No blinking .
 set noerrorbells  " No noise.
 set laststatus=2  " Always show status line.
@@ -106,3 +107,6 @@ autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
 autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global = 1
 " Improve autocomplete menu color
 highlight Pmenu ctermbg=238 gui=bold
+
+" Needed for iTerm2 solarized I guess
+set background=light
