@@ -110,3 +110,7 @@ highlight Pmenu ctermbg=238 gui=bold
 
 " Needed for iTerm2 solarized I guess
 set background=light
+
+set wrap
+nnoremap j gj
+nnoremap k gk
