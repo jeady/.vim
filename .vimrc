@@ -114,3 +114,5 @@ set background=light
 set wrap
 nnoremap j gj
 nnoremap k gk
+
+let g:Powerline_symbols = 'fancy'
