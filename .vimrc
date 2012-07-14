@@ -74,7 +74,7 @@ set showmatch  " Show matching brackets.
 set mat=5  " Bracket blinking.
 
 " Show $ at end of line and trailing space as ~
-set list lcs=tab:\›\ ,eol:┐,trail:~,extends:>,precedes:<
+set list lcs=tab:\›\ ,trail:~,extends:>,precedes:<
 " set list lcs=tab:\›\ ,eol:$,trail:~,extends:>,precedes:<
 set novisualbell  " No blinking .
 set noerrorbells  " No noise.
@@ -91,8 +91,8 @@ map <leader>nt :tabnew<cr>
 map <leader>te :tabedit
 map <leader>tc :tabclose<cr>
 map <leader>tm :tabmove
-map <leader>tn :tabnext<cr>
-map <leader>tp :tabprev<cr>
+map ] :tabnext<cr>
+map [ :tabprev<cr>
 
 " Enable OmniCompletion
 autocmd FileType python set omnifunc=pythoncomplete#Complete
@@ -114,3 +114,5 @@ set background=light
 set wrap
 nnoremap j gj
 nnoremap k gk
+
+let g:Powerline_symbols = 'fancy'
