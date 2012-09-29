@@ -116,3 +116,6 @@ nnoremap j gj
 nnoremap k gk
 
 let g:Powerline_symbols = 'fancy'
+
+highlight ColorColumn ctermbg=red
+set colorcolumn=80,81
