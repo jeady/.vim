@@ -2,6 +2,7 @@ filetype on  " Automatically detect file types.
 filetype plugin indent on
 set nocompatible  " We don't want vi compatibility.
 syntax enable
+set encoding=utf-8
 
 " Install pathogen to help manage plugins
 runtime bundle/vim-pathogen/autoload/pathogen.vim
