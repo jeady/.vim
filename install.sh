@@ -19,7 +19,7 @@ then
   sed -i -e '/MacOSX/s/^/#/' .tmux.conf
 fi
 
-escaped_shell = $(echo $0 | sed 's/\//\\\//g')
+escaped_shell=$(echo $SHELL | sed 's/\//\\\//g')
 sed -i -e "s/\/bin\/zsh/$escaped_shell/g" .tmux.conf
 
 git config --global user.email "jmeady@gmail.com"
