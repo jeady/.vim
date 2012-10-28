@@ -25,3 +25,10 @@ sed -i -e "s/\/bin\/zsh/$escaped_shell/g" .tmux.conf
 git config --global user.email "jmeady@gmail.com"
 git config --global user.name "James Eady"
 git config --global color.ui "auto"
+
+echo
+echo
+echo ================
+echo Have a nice day!
+echo ================
+echo
