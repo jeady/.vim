@@ -120,3 +120,6 @@ let g:Powerline_symbols = 'fancy'
 
 highlight ColorColumn ctermbg=red
 set colorcolumn=80,81
+
+" Gundo
+nnoremap <F5> :GundoToggle<CR>
