@@ -27,6 +27,10 @@ cmap w!! w !sudo tee % >/dev/null
 nnoremap <Leader>tt :TlistToggle<cr>
 nnoremap <Leader>tl :TaskList<cr>
 
+" Fugitive
+nnoremap <Leader>gc :Gcommit<cr>
+nnoremap <Leader>gs :Gstatus<cr>
+
 " Show the command tree
 set showcmd
 
