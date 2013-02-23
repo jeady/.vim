@@ -127,6 +127,7 @@ set colorcolumn=80,81
 
 " Gundo
 nnoremap <F5> :GundoToggle<CR>
+nnoremap <leader>g :GundoToggle<CR>
 
 " Kill remapping of [[, [], [",  etc. by certain (vim.vim) filetype plugins.
 autocmd Filetype vim unmap <buffer> [[
