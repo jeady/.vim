@@ -128,7 +128,7 @@ highlight ColorColumn ctermbg=red
 set colorcolumn=80,81
 
 " Gundo
-nnoremap <leader>g :GundoToggle<CR>
+nnoremap <leader>gt :GundoToggle<CR>
 
 " Kill remapping of [[, [], [",  etc. by certain (vim.vim) filetype plugins.
 autocmd Filetype vim,python unmap <buffer> [[
