@@ -35,7 +35,10 @@ nnoremap <Leader>gs :Gstatus<cr>
 set showcmd
 
 " Show NERDTree using ,p
-nnoremap <Leader>p :NERDTreeToggle<cr>
+nnoremap <leader>nt :NERDTreeToggle<cr>
+
+" CtrlP
+nnoremap <leader>p :CtrlP<cr>
 
 " show the terminal title
 set title
@@ -92,7 +95,6 @@ map <C-h> <C-W>h
 map <C-l> <C-W>l
 
 " Tab configuration
-map <leader>nt :tabnew<cr>
 map <leader>te :tabedit
 map <leader>tc :tabclose<cr>
 map <leader>tm :tabmove
