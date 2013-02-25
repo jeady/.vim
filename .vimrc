@@ -130,9 +130,11 @@ nnoremap <F5> :GundoToggle<CR>
 nnoremap <leader>g :GundoToggle<CR>
 
 " Kill remapping of [[, [], [",  etc. by certain (vim.vim) filetype plugins.
-autocmd Filetype vim unmap <buffer> [[
+autocmd Filetype vim,python unmap <buffer> [[
 autocmd Filetype vim unmap <buffer> []
-autocmd Filetype vim unmap <buffer> ]]
+autocmd Filetype vim,python unmap <buffer> ]]
 autocmd Filetype vim unmap <buffer> ][
 autocmd Filetype vim unmap <buffer> ["
 autocmd Filetype vim unmap <buffer> ]"
+autocmd Filetype python unmap <buffer> [m
+autocmd Filetype python unmap <buffer> ]m
