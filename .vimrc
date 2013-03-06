@@ -143,5 +143,3 @@ autocmd Filetype vim unmap <buffer> ]"
 autocmd Filetype python unmap <buffer> [m
 autocmd Filetype python unmap <buffer> ]m
 
-" When we replace text in visual mode, keep the old text yanked.
-xnoremap p pgvy
