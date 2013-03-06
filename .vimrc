@@ -143,3 +143,5 @@ autocmd Filetype vim unmap <buffer> ]"
 autocmd Filetype python unmap <buffer> [m
 autocmd Filetype python unmap <buffer> ]m
 
+" Get rid of vim-gitgutter gray band.
+highlight clear SignColumn
