@@ -39,7 +39,7 @@
 	url = https://github.com/kchmck/vim-coffee-script.git
 [submodule "bundle/YankRing"]
 	path = bundle/YankRing
-	url = https://github.com/vim-scripts/YankRing.vim.git
+	url = https://github.com/jeady/YankRing.vim.git
 [submodule "bundle/gundo"]
 	path = bundle/gundo
 	url = http://github.com/sjl/gundo.vim.git
