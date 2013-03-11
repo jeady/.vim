@@ -31,6 +31,7 @@ nnoremap <Leader>tl :TaskList<cr>
 " Fugitive
 nnoremap <Leader>gc :Gcommit<cr>
 nnoremap <Leader>gs :Gstatus<cr>
+nnoremap <leader>gw :Gwrite<cr>
 
 " Show the command tree
 set showcmd
