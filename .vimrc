@@ -32,6 +32,7 @@ nnoremap <Leader>tl :TaskList<cr>
 nnoremap <Leader>gc :Gcommit<cr>
 nnoremap <Leader>gs :Gstatus<cr>
 nnoremap <leader>gw :Gwrite<cr>
+nnoremap <leader>gb :Gblame<cr>
 
 " Show the command tree
 set showcmd
