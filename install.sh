@@ -25,6 +25,7 @@ sed -i -e "s/\/bin\/zsh/$escaped_shell/g" .tmux.conf
 git config --global user.email "jmeady@gmail.com"
 git config --global user.name "James Eady"
 git config --global color.ui "auto"
+git config --global alias.history '!sh ~/.vim/scripts/git_history.sh'
 
 echo
 echo
