@@ -27,7 +27,7 @@ cmap w!! w !sudo tee % >/dev/null
 
 " Toggle the tag list window
 nnoremap <Leader>tt :TlistToggle<cr>
-nnoremap <Leader>tl :TaskList<cr>
+nnoremap <Leader>tb :TagbarToggle<cr>
 
 " Fugitive
 nnoremap <Leader>gc :Gcommit<cr>
