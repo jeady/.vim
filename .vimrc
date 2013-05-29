@@ -103,8 +103,8 @@ map <C-k> <C-W>k
 map <leader>te :tabedit
 map <leader>tc :tabclose<cr>
 map <leader>tm :tabmove
-map <C-h> :tabnext<cr>
-map <C-l> :tabprev<cr>
+map <C-l> :tabnext<cr>
+map <C-h> :tabprev<cr>
 
 " Enable OmniCompletion
 autocmd FileType python set omnifunc=pythoncomplete#Complete
