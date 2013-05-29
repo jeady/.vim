@@ -98,15 +98,13 @@ set laststatus=2  " Always show status line.
 " Smart way to move btw. windows
 map <C-j> <C-W>j
 map <C-k> <C-W>k
-map <C-h> <C-W>h
-map <C-l> <C-W>l
 
 " Tab configuration
 map <leader>te :tabedit
 map <leader>tc :tabclose<cr>
 map <leader>tm :tabmove
-map ] :tabnext<cr>
-map [ :tabprev<cr>
+map <C-h> :tabnext<cr>
+map <C-l> :tabprev<cr>
 
 " Enable OmniCompletion
 autocmd FileType python set omnifunc=pythoncomplete#Complete
@@ -136,16 +134,6 @@ set colorcolumn=80,81
 
 " Gundo
 nnoremap <leader>gt :GundoToggle<CR>
-
-" Kill remapping of [[, [], [",  etc. by certain (vim.vim) filetype plugins.
-autocmd Filetype vim,python unmap <buffer> [[
-autocmd Filetype vim unmap <buffer> []
-autocmd Filetype vim,python unmap <buffer> ]]
-autocmd Filetype vim unmap <buffer> ][
-autocmd Filetype vim unmap <buffer> ["
-autocmd Filetype vim unmap <buffer> ]"
-autocmd Filetype python unmap <buffer> [m
-autocmd Filetype python unmap <buffer> ]m
 
 " Get rid of vim-gitgutter gray band.
 highlight clear SignColumn
