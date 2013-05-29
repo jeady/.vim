@@ -143,3 +143,16 @@ set foldmethod=indent   "fold based on indent
 set foldnestmax=10      "deepest fold is 10 levels
 set nofoldenable        "dont fold by default
 set foldlevel=1         "this is just what i use
+
+" QuickFix
+noremap <leader>fo :copen<CR>
+noremap <leader>fc :ccl<CR>
+noremap <leader>fp :cp<CR>
+noremap <leader>fn :cn<CR>
+noremap <leader>ff :cnf<CR>
+noremap <leader>lo :lopen<CR>
+noremap <leader>lc :lcl<CR>
+noremap <leader>lp :lp<CR>
+noremap <leader>ln :ln<CR>
+noremap <leader>lf :lnf<CR>
+noremap <leader>e :Errors<CR>
