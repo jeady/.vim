@@ -96,8 +96,8 @@ set noerrorbells  " No noise.
 set laststatus=2  " Always show status line.
 
 " Smart way to move btw. windows
-map <C-j> <C-W>j
-map <C-k> <C-W>k
+map <C-j> <C-W>h
+map <C-k> <C-W>l
 
 " Tab configuration
 map <leader>te :tabedit
