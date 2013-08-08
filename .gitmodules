@@ -67,3 +67,6 @@
 [submodule "bundle/gitv"]
 	path = bundle/gitv
 	url = https://github.com/gregsexton/gitv.git
+[submodule "bundle/vim-arduino"]
+	path = bundle/vim-arduino
+	url = https://github.com/tclem/vim-arduino.git
