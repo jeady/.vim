@@ -26,7 +26,7 @@ nnoremap <C-y> 3<C-y>
 cmap w!! w !sudo tee % >/dev/null
 
 " Toggle the tag list window
-nnoremap <Leader>tt :TlistToggle<cr>
+nnoremap <Leader>tl :TlistToggle<cr>
 nnoremap <Leader>tb :TagbarToggle<cr>
 
 " Fugitive
@@ -96,15 +96,15 @@ set noerrorbells  " No noise.
 set laststatus=2  " Always show status line.
 
 " Smart way to move btw. windows
-map <C-j> <C-W>h
-map <C-k> <C-W>l
+map <C-h> <C-W>h
+map <C-l> <C-W>l
+map <C-j> <C-W>j
+map <C-k> <C-W>k
 
 " Tab configuration
 map <leader>te :tabedit
-map <leader>tc :tabclose<cr>
-map <leader>tm :tabmove
-map <C-l> :tabnext<cr>
-map <C-h> :tabprev<cr>
+map <C-n> :tabnext<cr>
+map <C-p> :tabprev<cr>
 
 " Enable OmniCompletion
 autocmd FileType python set omnifunc=pythoncomplete#Complete
@@ -150,11 +150,11 @@ set nofoldenable        "dont fold by default
 set foldlevel=1         "this is just what i use
 
 " QuickFix
-noremap <leader>fo :copen<CR>
-noremap <leader>fc :ccl<CR>
-noremap <leader>fp :cp<CR>
-noremap <leader>fn :cn<CR>
-noremap <leader>ff :cnf<CR>
+noremap <leader>qo :copen<CR>
+noremap <leader>qc :ccl<CR>
+noremap <leader>qp :cp<CR>
+noremap <leader>qn :cn<CR>
+noremap <leader>qf :cnf<CR>
 noremap <leader>lo :lopen<CR>
 noremap <leader>lc :lcl<CR>
 noremap <leader>lp :lp<CR>
