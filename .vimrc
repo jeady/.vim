@@ -1,4 +1,4 @@
-let g:pathogen_disabled = ['YankRing']
+let g:pathogen_disabled = ['YankRing', 'syntastic', 'ctrlp']
 filetype on  " Automatically detect file types.
 filetype plugin indent on
 set nocompatible  " We don't want vi compatibility.
